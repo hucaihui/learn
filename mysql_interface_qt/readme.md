@@ -8,8 +8,8 @@
     MySQLInterface *mysql=new MySQLInterface();
 
     //1 打开mysql
-    //bool isOpen = mysql->openMySql("localhost",3306,"test01","root","A13218343010");
-    mysql->openMySql("test01","A13218343010");
+    //bool isOpen = mysql->openMySql("localhost",3306,"test01","root","123456");
+    mysql->openMySql("test01","123456");
 
 
     //2 条件查询
